@@ -4,21 +4,38 @@
     height: 68px;
     left: 100px;
     top: 40px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .kasa-logo{  
-    left: 0%;
-    right: 83.04%;
-    top: 0%;
-    bottom: 0%;
+    height: 68px;
+    width: 210.32154846191406px;
+    border-radius: 0px;
+    
 }
 
 .banner-nav{
     position: absolute;
+    display: flex;
+    justify-content: space-evenly;
     left: 75.08%;
     right: 0%;
     top: 25%;
     bottom: 25%;    
+}
+
+.btn-accueil{
+    color: #FF6060;
+    text-decoration-line: underline;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    width: 136px;
+    height: 34px;
+}
+
+.btn-propos{
+    font-family: 'Montserrat';
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 24px;
 }

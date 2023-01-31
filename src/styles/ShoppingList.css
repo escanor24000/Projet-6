@@ -1,0 +1,37 @@
+.kasa-shoppinglist{
+    position: absolute;
+    width: 1240px;
+    height: 1095px;
+    left: 100px;
+    top: 171px;
+}
+.kasa-photo{
+    filter: brightness(0.8);
+    border-radius: 25px;
+}
+.kasa-box-text-photo{
+    position: absolute;
+    left: 18.9%;
+    right: 22.14%;
+    top: 1.32%;
+    bottom: 92.06%;
+}
+.kasa-text-photo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.kasa-gallery{
+    position: absolute;
+    width: 1240px;
+    height: 829px;
+    left: 100px;
+    top: 437px;
+    background: #F7F7F7;
+    border-radius: 25px;
+}

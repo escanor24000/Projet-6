@@ -7,7 +7,7 @@ function Banner() {
     return (
         <div className='kasa-banner'>
             <img src={logo} alt='logo Kasa' className='kasa-logo' />
-            <div classename='banner-nav'>
+            <div className='banner-nav'>
                 <p className='btn-accueil'>{accueil}</p>
                 <p className='btn-propos'>{propos}</p>
             </div>

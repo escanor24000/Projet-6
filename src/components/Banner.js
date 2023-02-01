@@ -1,5 +1,6 @@
 import logo from '../assets/logo-kasa.png'
 import '../styles/Banner.css'
+import { Link } from 'react-router-dom'
 
 function Banner() {
     const accueil = 'Accueil'
@@ -7,10 +8,10 @@ function Banner() {
     return (
         <div className='kasa-banner'>
             <img src={logo} alt='logo Kasa' className='kasa-logo' />
-            <div className='banner-nav'>
-                <p className='btn-accueil'>{accueil}</p>
-                <p className='btn-propos'>{propos}</p>
-            </div>
+            <nav className='banner-nav'>
+                <Link to="/" className='btn-accueil'>{accueil}</Link>
+                <Link to="/A_popros" className='btn-propos'>{propos}</Link>
+            </nav>
         </div>
     )
 }

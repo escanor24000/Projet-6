@@ -1,14 +1,29 @@
-import Api from "./Api"
+import '../styles/Logement.css'
+import { useParams } from 'react-router-dom';
+import Api from './Api'
+
 
 function Logement() {
     const data = Api();
-    console.log(data)
+    const idUrl = useParams();
+    const loge = []
+    data.forEach(function (res) {
+        if (idUrl.id === res.id) {
+            loge.push(res)
+        }
+
+    });
+    console.log(loge)
+
     return (
         <div>
-            {data.map((log, id) => (
-            <img src={log.cover} alt={log.tag} className='kasa-gallery-image-logement' />
+            {loge.map((log, id) => (
+                <div>
+                    <img src={loge.pictures} className='kasa-image-logement' />
+                </div>
             ))}
         </div>
+
     )
 
 }

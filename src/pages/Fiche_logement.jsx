@@ -4,8 +4,8 @@ import Logement from "../components/Logement.js";
 function logement() {
     return (
         <div>
-            <Banner />
-            <Logement />
+            <Banner/>
+            <Logement/>
         </div>
     )
 }

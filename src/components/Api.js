@@ -8,8 +8,9 @@ export default function Api(){
 
 useEffect(() => {
     async function getData () {
-        const response = await fetch('data/data.json')
+        const response = await fetch('/data/data.json')
         const data = await response.json()
+        console.log(data)
         setData(data)
     }
     getData()

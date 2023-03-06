@@ -1,6 +1,8 @@
 import '../styles/Logement.css'
 import { useParams } from 'react-router-dom';
 import Api from './Api'
+import React, { useState } from 'react';
+import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
 
 function Logement() {
@@ -15,16 +17,32 @@ function Logement() {
     });
     console.log(loge)
 
-    return (
-        <div>
-            {loge.map((log, id) => (
-                <div>
-                    <img src={loge.pictures} className='kasa-image-logement' />
-                </div>
-            ))}
-        </div>
+    const Slider = ({ loge }) => {
+        const [current, setCurrent] = useState(0);
+        const length = loge.pictures.length;
 
-    )
+        const nextSlide = () => {
+            setCurrent(current === length - 1 ? 0 : current + 1);
+        };
+
+        const prevSlide = () => {
+            setCurrent(current === 0 ? length - 1 : current - 1);
+        };
+
+        return (
+            <div className='kasa-containere-slide'>
+                <FaChevronLeft className="leftArrow" onClick={prevSlide} />
+                <FaChevronRight className="rightArrow" onClick={nextSlide} />
+                {loge.map((loge, id) => {
+                    return (
+                        <div key={id}>
+                            {id === current && <img src={loge.pictures[0]} alt="" />}
+                        </div>
+                    )
+                })}
+            </div>
+        )
+    }
 
 }
 

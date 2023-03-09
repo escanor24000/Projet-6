@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
 
-function Logement() {
+     function Logement() {
     const data = Api();
     const idUrl = useParams();
     const loge = []
@@ -33,10 +33,10 @@ function Logement() {
             <div className='kasa-containere-slide'>
                 <FaChevronLeft className="leftArrow" onClick={prevSlide} />
                 <FaChevronRight className="rightArrow" onClick={nextSlide} />
-                {loge.map((loge, id) => {
+                {loge.pictures.map((loge, index) => {
                     return (
-                        <div key={id}>
-                            {id === current && <img src={loge.pictures[0]} alt="" />}
+                        <div key={index}>
+                            {index === current && <img src={loge.pictures} alt="" />}
                         </div>
                     )
                 })}

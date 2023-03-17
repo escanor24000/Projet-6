@@ -6,6 +6,7 @@ function Banner() {
     const accueil = 'Accueil'
     const propos = 'A Propos'
     return (
+        <>
         <div className='kasa-banner'>
             <img src={logo} alt='logo Kasa' className='kasa-logo' />
             <nav className='banner-nav'>
@@ -13,6 +14,7 @@ function Banner() {
                 <Link to="/A_popros" className='btn-propos'>{propos}</Link>
             </nav>
         </div>
+        </>
     )
 }
 

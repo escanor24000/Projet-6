@@ -1,11 +1,11 @@
 import '../styles/Logement.css'
 import { useParams } from 'react-router-dom';
 import Api from './Api'
-import React, { useState } from 'react';
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
+import Slider from './Module_logement/Slide'
+import Localisation from './Module_logement/Localisation'
+import Propriétaire from './Module_logement/Propriétaire'
 
-
-     function Logement() {
+function Logement() {
     const data = Api();
     const idUrl = useParams();
     const loge = []
@@ -17,33 +17,12 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
     });
     console.log(loge)
 
-    const Slider = ({ loge }) => {
-        const [current, setCurrent] = useState(0);
-        const length = loge.pictures.length;
-
-        const nextSlide = () => {
-            setCurrent(current === length - 1 ? 0 : current + 1);
-        };
-
-        const prevSlide = () => {
-            setCurrent(current === 0 ? length - 1 : current - 1);
-        };
-
-        return (
-            <div className='kasa-containere-slide'>
-                <FaChevronLeft className="leftArrow" onClick={prevSlide} />
-                <FaChevronRight className="rightArrow" onClick={nextSlide} />
-                {loge.pictures.map((loge, index) => {
-                    return (
-                        <div key={index}>
-                            {index === current && <img src={loge.pictures} alt="" />}
-                        </div>
-                    )
-                })}
-            </div>
-        )
-    }
-
+    return (
+        <>
+            <Slider slides={loge} />
+            <Localisation localise={loge} />
+            <Propriétaire host={loge} />
+        </>
+    )
 }
-
-export default Logement
+    export default Logement

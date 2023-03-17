@@ -2,12 +2,12 @@
 const propriétaire = ({host}) => {
     return (
         <>
-            {host.map((data, index) => (
-                <div key={index}>
-                    <p>{data.name}</p>
-                    <img src={data.picture[1]} alt='yolo' /> 
+            {host.map((data, id) => {
+                <div>
+                    <p key={id}>{data.name}</p>
+                    <img key={id} src={data.picture} alt='yolo' /> 
                 </div>
-            ))}
+            })}
         </>
     )
 

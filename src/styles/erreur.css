@@ -1,0 +1,42 @@
+p {
+    font-family: 'Montserrat';
+}
+
+.erreur-400 {
+    position: absolute;
+    width: 597px;
+    height: 263px;
+    left: 432px;
+    font-size: 288px;
+    font-weight: 700;
+    text-align: center;
+    color: #FF6060;
+}
+
+.erreur-msg {
+    position: absolute;
+    height: 51px;
+    width: 872px;
+    left: 295px;
+    top: 606px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF6060;
+}
+
+.erreur-btn {
+    position: absolute;
+    height: 26px;
+    width: 284px;
+    left: 578px;
+    top: 839px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF6060;
+}

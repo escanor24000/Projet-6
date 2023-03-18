@@ -1,22 +1,25 @@
-.kasa-shoppinglist{
+.kasa-shoppinglist {
     position: absolute;
     width: 1240px;
     height: 1095px;
     left: 100px;
     top: 171px;
 }
-.kasa-photo{
+
+.kasa-photo {
     filter: brightness(0.8);
     border-radius: 25px;
 }
-.kasa-box-text-photo{
+
+.kasa-box-text-photo {
     position: absolute;
     left: 18.9%;
     right: 22.14%;
     top: 1.32%;
     bottom: 92.06%;
 }
-.kasa-text-photo{
+
+.kasa-text-photo {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -26,7 +29,8 @@
     align-items: flex-end;
     color: #FFFFFF;
 }
-.kasa-gallery{
+
+.kasa-gallery {
     position: absolute;
     width: 1240px;
     height: 829px;
@@ -34,4 +38,37 @@
     top: 437px;
     background: #F7F7F7;
     border-radius: 25px;
+}
+
+.kasa-gallery-logement {
+    height: 340px;
+    width: 340px;
+    left: 50px;
+    top: 56px;
+    border-radius: 0px;
+}
+
+.kasa-gallery-image-logement {
+    height: 340px;
+    width: 340px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
+}
+
+.kasa-gallery-titre-logement{
+    height: 52px;
+width: 300px;
+left: 20px;
+top: 268px;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
 }

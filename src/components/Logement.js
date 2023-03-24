@@ -14,7 +14,7 @@ function Logement() {
     const data = Api();
     const idUrl = useParams();
     useEffect(() => {
-        if (data != undefined) {
+        if (data /*!= undefined*/) {
             
             const loge = []
             data.forEach(function (res) {

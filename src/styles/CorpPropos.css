@@ -1,0 +1,50 @@
+.barre-titre {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0%;
+    margin-top: 0.6%;
+    margin-left: 1.2%;
+}
+
+.kasa_photo-propos {
+    width: 93.6%;
+    height: 261px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-left: 1%;
+}
+
+.propos_dropdown {
+    width: 81%;
+    height: 184px;
+    display: flex;
+    padding-left: 6.8%;
+    margin-top: 1.6%;
+    flex-direction: column;
+}
+
+.dropdown-barre{
+    background: #FF6060;
+    border-radius: 5px;
+    height: 47px;
+    width: 100%;
+}
+
+.dropdown-explica{
+    background: #F7F7F7;
+border-radius: 5px;
+}
+
+.explica-texte{
+color: #FF6060;
+font-size: 24px;
+padding-left: 1%;
+}
+
+
+
+
+

@@ -17,9 +17,9 @@ console.log(data)
                 {data.map((log, id) => (
                     <Link to={`/Logement/${log.id}`} className='kasa-gallery-logement' key={id}>
                     <img src={log.cover} alt={log.tag} className='kasa-gallery-image-logement'/>
-                    <div>
+                    
 					<p key={id} className='kasa-gallery-titre-logement'>{log.title}</p>
-                    </div>
+                    
                     </Link>
                     ))}
                 </div>

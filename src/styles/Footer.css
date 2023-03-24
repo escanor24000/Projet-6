@@ -1,6 +1,26 @@
-.kasa-footer{
+.kasa-footer {
     position: relative;
-    width: 1440px;
+    width: 93.6%;
     height: 209px;
     background: #000000;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.footer-logo {
+    width: 18%;
+    object-fit: contain;
+    height: 23%;
+    display: flex;
+}
+
+.footer-texte {
+    color: #FFFFFF;
+    height: 11%;
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
 }

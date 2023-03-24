@@ -1,11 +1,16 @@
 import Banner from "../components/Banner.js";
-
+import CorpPropos from "../components/CorpPropos"
+import Footer from "../components/Footer"
 
 function A_propos() {
+    
     return (
         <div>
             <Banner/>
+            <CorpPropos/>
+            <Footer/>
         </div>
     )
 }
+
 export default A_propos;

@@ -4,47 +4,169 @@
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    margin: 0%;
-    margin-top: 0.6%;
-    margin-left: 1.2%;
+    width: 97px;
+    height: 34px;
+    margin-left: 18.08px;
+    margin-top: 5.61px;
+    margin-bottom: 7.39px;
+    flex-grow: 1;
+}
+
+.explica-vectorHaut {
+    width: 24px;
+    height: 13.71px;
+    object-fit: none;
+    margin-top: 16px;
+    margin-right: 33px;
+    margin-bottom: 17.29px;
+}
+
+.active .explica-vectorHaut {
+    rotate: 180deg;
+    transition: all .2s;
 }
 
 .kasa_photo-propos {
-    width: 93.6%;
-    height: 261px;
+    width: 1240px;
+    height: 223px;
     object-fit: cover;
     border-radius: 25px;
-    margin-left: 1%;
+    mix-blend-mode: darken;
 }
 
 .propos_dropdown {
-    width: 81%;
-    height: 184px;
+    width: 1023px;
     display: flex;
-    padding-left: 6.8%;
-    margin-top: 1.6%;
+    padding-left: 8.8%;
+    margin-top: 31px;
     flex-direction: column;
 }
 
-.dropdown-barre{
+.dropdown-barre {
     background: #FF6060;
     border-radius: 5px;
     height: 47px;
-    width: 100%;
+    width: 1023px;
+    position: relative;
+    top: 9px;
+    display: flex;
 }
 
-.dropdown-explica{
+.dropdown-barre:hover {
+    cursor: pointer;
+}
+
+.active .dropdown-explica-fiabilite {
     background: #F7F7F7;
-border-radius: 5px;
+    border-radius: 5px;
+    height: 146px;
+    width: 1023px;
+    visibility: visible;
+    overflow: hidden;
+    opacity: 1;
 }
 
-.explica-texte{
-color: #FF6060;
-font-size: 24px;
-padding-left: 1%;
+.dropdown-explica-fiabilite {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .2s ease-in;
 }
 
+.explica-conteneur-texte-fiabilite {
+    width: 978px;
+    height: 91px;
+    margin-left: 18px;
+    margin-top: 36px;
+    margin-bottom: 19px;
+    margin-right: 27px;
+}
 
+.active .dropdown-explica-respect {
+    background: #F7F7F7;
+    border-radius: 5px;
+    height: 146px;
+    width: 1023px;
+    visibility: visible;
+    overflow: hidden;
+    opacity: 1;
+}
 
+.dropdown-explica-respect{
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .2s ease-in;
+}
 
+.explica-conteneur-texte-respect {
+    width: 978px;
+    height: 91px;
+    margin-left: 18px;
+    margin-top: 36px;
+    margin-right: 27px;
+    margin-bottom: 19px;
+}
 
+.active .dropdown-explica-service {
+    background: #F7F7F7;
+    border-radius: 5px;
+    height: 117px;
+    width: 1023px;
+    visibility: visible;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.dropdown-explica-service{
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .2s ease-in;
+}
+
+.explica-conteneur-texte-service {
+    width: 978px;
+    height: 91px;
+    margin-top: 36px;
+    margin-left: 18px;
+    margin-bottom: 19px;
+}
+
+.active .dropdown-explica-securite {
+    background: #F7F7F7;
+    border-radius: 5px;
+    height: 223px;
+    width: 1023px;
+    visibility: visible;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.dropdown-explica-securite{
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .2s ease-in;
+}
+
+.explica-conteneur-texte-securite {
+    width: 978px;
+    height: 91px;
+    margin-left: 18px;
+    margin-top: 36px;
+    margin-right: 27px;
+    margin-bottom: 96px;
+}
+
+.explica-texte {
+    color: #FF6060;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 142.6%;
+    margin: 0;
+}

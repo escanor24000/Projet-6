@@ -1,5 +1,5 @@
 .kasa-shoppinglist {
-    
+
     width: 1240px;
     height: 1095px;
     left: 100px;
@@ -31,21 +31,22 @@
 }
 
 .kasa-gallery {
-    position: absolute;
     width: 1240px;
-    height: 829px;
-    left: 100px;
-    top: 437px;
     background: #F7F7F7;
     border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 56px;
+    padding-left: 50px;
+    margin-top: 43px;
 }
 
 .kasa-gallery-logement {
     height: 340px;
     width: 340px;
-    left: 50px;
-    top: 56px;
     border-radius: 0px;
+    margin-right: 60px;
+    margin-bottom: 50px;
 }
 
 .kasa-gallery-image-logement {

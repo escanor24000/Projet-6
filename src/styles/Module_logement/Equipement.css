@@ -1,0 +1,50 @@
+.Equipement_conteneur-titre {
+    width: 582px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #FF6060;
+    display: flex;
+    position: relative;
+    top: 9%;
+}
+
+.Equipement-titre {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    align-items: baseline;
+    display: flex;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.vectorHaut{
+    width: 32px;
+    height: 32px;
+    object-fit: none;
+    display: flex;
+    margin-right: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Equipement_conteneur-texte {
+    width: 582px;
+    height: 249px;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+}
+
+.Equipement_sous-conteneur-texte {
+    width: 550px;
+    height: 182px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.Equipement-texte {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 142.6%;
+    margin-bottom: -15px;
+}

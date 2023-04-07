@@ -1,0 +1,26 @@
+.kasa-containere-slide {
+    margin-bottom: 30px;
+}
+
+.slide-box-photo>img {
+    object-fit: cover;
+    height: 415px;
+    width: 1240px;
+    border-radius: 25px;
+}
+
+.leftArrow {
+    position: absolute;
+    width: 46.68px;
+    height: 79.2px;
+    margin-top: 156.7px;
+    margin-left: 23.36px;
+}
+
+.rightArrow {
+    position: absolute;
+    margin-left: 1169.96px;
+    margin-top: 149.23px;
+    width: 46.68px;
+    height: 79.2px;
+}

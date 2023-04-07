@@ -1,0 +1,21 @@
+.Proprietaire_conteneur {
+    display: flex;
+}
+
+.Proprietaire-nom {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    text-align: right;
+    margin-top: 0;
+    margin-right: 10px;
+    width: 93px;
+    height: 52px;
+}
+
+.Proprietaire-photo {
+    border-radius: 33px;
+    object-fit: contain;
+    width: 64px;
+    height: 64px;
+}

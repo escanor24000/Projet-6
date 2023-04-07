@@ -1,0 +1,22 @@
+.tags_conteneur {
+    display: flex;
+}
+
+.tags_conteneur-text {
+    width: 115px;
+    height: 25px;
+    background-color: #FF6060;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.tags-texte {
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+    display: flex;
+}

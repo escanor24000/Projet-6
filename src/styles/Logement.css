@@ -1,8 +1,7 @@
-.kasa-containere-slide{
-    position: absolute;
-width: 1240px;
-height: 415px;
-left: 100px;
-top: 128px;
-
+.loge_conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+.loge_descr-equip{
+    display: flex;
 }

@@ -1,0 +1,15 @@
+p {
+    color: #FF6060;
+    font-family: 'Montserrat';
+}
+
+.locali-titre {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.locali-adresse {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}

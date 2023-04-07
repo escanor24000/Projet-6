@@ -1,0 +1,50 @@
+.description_conteneur{
+    margin-right: 76px;
+}
+
+.description_conteneur-titre{
+    width: 582px;
+height: 52px;
+border-radius: 10px;
+background-color: #FF6060;
+display: flex;
+position: relative;
+top: 9%;
+}
+
+.description-titre{
+    font-size: 18px;
+font-weight: 500;
+color: #FFF;
+align-items: baseline;
+display: flex;
+margin-left: 20px;
+flex-grow: 1;
+}
+.vectorHaut{
+    width: 32px;
+    height: 32px;
+    object-fit: none;
+    display: flex;
+    margin-right: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description_conteneur-texte{
+    width: 582px;
+height: 249px;
+border-radius: 10px;
+background-color: #F6F6F6;
+}
+
+.description_sous-conteneur-texte{
+    font-size: 18px;
+font-weight: 400;
+color: #FFF;
+align-items: baseline;
+display: flex;
+padding-top: 40px;
+padding-left: 20px;
+line-height: 142.6%;
+}

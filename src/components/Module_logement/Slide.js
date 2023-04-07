@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
-import Api from '../Api';
-import { useParams } from 'react-router-dom';
-
+import '../../styles/Module_logement/Slide.css'
+import vector_G from '../../assets/Vector_G.png'
+import vector_D from '../../assets/Vector_D.png'
 
 const Slider = ({ slides }) => {
     const [current, setCurrent] = useState(0);
@@ -15,20 +14,20 @@ const Slider = ({ slides }) => {
     const prevSlide = () => {
         setCurrent(current === 0 ? length - 1 : current - 1);
     };
-    console.log(slides)
-    
+
     return (
-        <section className='kasa-containere-slide'>
-            <FaChevronLeft className="leftArrow" onClick={prevSlide} />
-            <FaChevronRight className="rightArrow" onClick={nextSlide} />
-            {slides.map((picture, index) => {
-                
-               return (<div key={index}>
-                { index === current && <img src={picture} alt='yolo' />}
-                </div>)   
-        })}
-        </section>
-    )  
+        <>
+            <div className='kasa-containere-slide'>
+                <img src={vector_G} className="leftArrow" onClick={prevSlide} />
+                <img src={vector_D} className="rightArrow" onClick={nextSlide} />
+                {slides.map((picture, index) => {
+                    return (<div key={index} className="slide-box-photo">
+                        {index === current && <img src={picture} alt='yolo' />}
+                    </div>)
+                })}
+            </div>
+        </>
+    )
 }
 
 export default Slider

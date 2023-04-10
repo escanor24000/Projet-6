@@ -8,6 +8,10 @@
     top: 9%;
 }
 
+.Equipement_conteneur-titre:hover{
+    cursor: pointer;
+}
+
 .Equipement-titre {
     font-size: 18px;
     font-weight: 500;
@@ -28,11 +32,25 @@
     margin-bottom: 10px;
 }
 
-.Equipement_conteneur-texte {
+.active .vectorHaut{
+    rotate: 180deg;
+}
+
+.active .Equipement_conteneur-texte {
     width: 582px;
     height: 249px;
     border-radius: 10px;
     background-color: #F6F6F6;
+    visibility: visible;
+    overflow: visible;
+    opacity: 1;
+}
+
+.Equipement_conteneur-texte{
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .2s ease-in;
 }
 
 .Equipement_sous-conteneur-texte {

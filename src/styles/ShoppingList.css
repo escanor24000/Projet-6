@@ -9,6 +9,9 @@
 .kasa-photo {
     filter: brightness(0.8);
     border-radius: 25px;
+    width: 1240px;
+    height: 223px;
+    object-fit: cover;
 }
 
 .kasa-box-text-photo {

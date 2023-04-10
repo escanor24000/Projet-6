@@ -1,17 +1,10 @@
 import photo from '../assets/img_propos.png'
 import '../styles/CorpPropos.css'
-import React, { useState } from "react";
 import Fiabilite from './Module_a_propos/fiabilite';
 import Respect from './Module_a_propos/respect';
 import Securite from './Module_a_propos/securite';
 import Service from './Module_a_propos/service';
 function CorpPropos() {
-    const [active, setActive] = useState(false);
-
-    const toggleAccordion = e => {
-        setActive(!active)
-    };
-
     return (
         <section>
             <img src={photo} alt='vue de de bord de mer' className='kasa_photo-propos' />
@@ -28,7 +21,6 @@ function CorpPropos() {
             <Securite titre="Sécurité" texte="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services.
                             En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également
                             des ateliers sur la sécurité domestique pour nos hôtes."/>
-
         </section>
     )
 }

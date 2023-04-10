@@ -1,0 +1,17 @@
+.note_containe {
+    display: flex;
+    justify-content: end;
+    height: 36px;
+    width: 196px;
+    margin-top: 21px;
+}
+
+.containe-etoile {
+    width: 36px;
+    height: 36px;
+}
+
+.etoile {
+    width: 24.75px;
+    height: 24px;
+}

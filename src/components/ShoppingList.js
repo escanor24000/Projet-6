@@ -4,8 +4,8 @@ import Api from './Api'
 import { Link } from 'react-router-dom'
 
 function ShoppingList() {
-const data = Api();
-console.log(data)
+    const data = Api();
+    console.log(data)
     return (
         <div className='kasa-shoppinglist'>
             <div>
@@ -14,14 +14,24 @@ console.log(data)
                     <p className='kasa-text-photo'>Chez vous, partout et ailleurs</p>
                 </div>
                 <div className='kasa-gallery'>
-                {data.map((log, id) => (
-                    <Link to={`/Logement/${log.id}`} className='kasa-gallery-logement' key={id}>
-                    <img src={log.cover} alt={log.tag} className='kasa-gallery-image-logement'/>
-                    
-					<p key={id} className='kasa-gallery-titre-logement'>{log.title}</p>
-                    
-                    </Link>
-                    ))}
+
+                    {data.map((log, id) => {
+                        return(
+                                <div className={ ((id>0 && (id+1)%3==0 )? 'container-fin' : 'other')}>
+                                    
+                                    <Link to={`/Logement/${log.id}`} className='kasa-gallery-logement' key={id}>
+                                        <img src={log.cover} alt={log.tag} className='kasa-gallery-image-logement' />
+                                        <p key={id} className='kasa-gallery-titre-logement'>{log.title}</p>
+                                    </Link>
+                                    {id}
+                                  </div>
+                        )
+                                
+                     
+                            
+                        
+                    })}
+
                 </div>
             </div>
         </div>

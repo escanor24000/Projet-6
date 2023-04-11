@@ -33,7 +33,7 @@ function Logement() {
                 </div>
                 <div>
                 <Proprietaire host={loge} />
-                <Note/>
+                <Note note={loge}/>
                 </div>
             </div>
             <div className='loge_descr-equip'>

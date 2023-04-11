@@ -9,6 +9,7 @@ const Equipement = ({equip}) => {
         setActive(!active)
         console.log(e)
       }
+      
     return (
         <>
             {equip.map((data) => (

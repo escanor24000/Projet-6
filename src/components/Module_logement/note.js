@@ -6,7 +6,7 @@ const Note = ({ note }) => {
     {
         note.map((data) => {
             const nb = parseInt(data.rating)
-            //console.log(nb)
+            console.log(nb)
         })
     }
 

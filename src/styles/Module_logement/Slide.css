@@ -1,5 +1,6 @@
 .kasa-containere-slide {
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .slide-box-photo>img {
@@ -20,7 +21,20 @@
 .rightArrow {
     position: absolute;
     margin-left: 1169.96px;
-    margin-top: 155.23px;
+    margin-top: 157px;
     width: 46.68px;
     height: 79.2px;
+}
+
+.conteur-slide {
+    position: absolute;
+    left: 48.95%;
+    right: 49.11%;
+    bottom: 411px;
+    color: #FFF;
+    font-weight: 500;
+    margin: 0;
+    font-size: 18px;
+    line-height: 142.6%;
+    margin-bottom: 24.92px;
 }

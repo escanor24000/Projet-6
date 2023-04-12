@@ -1,5 +1,5 @@
 import '../styles/ShoppingList.css'
-import photo from '../assets/img_kasa.png'
+import photo from '../assets/img_home.png'
 import Api from './Api'
 import { Link } from 'react-router-dom'
 
@@ -20,7 +20,9 @@ function ShoppingList() {
                             <div className={((id > 0 && (id + 1) % 3 == 0) ? 'container-fin' : 'other')}>
                                 <Link to={`/Logement/${log.id}`} className='kasa-gallery-logement' key={id}>
                                     <img src={log.cover} alt={log.tag} className='kasa-gallery-image-logement' />
+                                    <div className='kasa-gallery-box-titre-logement'>
                                     <p key={id} className='kasa-gallery-titre-logement'>{log.title}</p>
+                                    </div>
                                 </Link>
                             </div>
                         )

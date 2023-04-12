@@ -6,7 +6,7 @@ import Securite from './Module_a_propos/securite';
 import Service from './Module_a_propos/service';
 function CorpPropos() {
     return (
-        <section>
+        <section className='section_a_propos'>
             <img src={photo} alt='vue de de bord de mer' className='kasa_photo-propos' />
 
             <Fiabilite titre="Fiabilité" texte="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements,

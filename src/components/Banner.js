@@ -1,5 +1,5 @@
 import logo from '../assets/logo-kasa.png'
-import '../styles/Banner.css'
+import '../styles/Module_banner/Banner.css'
 import { Link } from 'react-router-dom'
 
 function Banner() {

@@ -1,7 +1,6 @@
 .kasa-banner {
     display: flex;
     flex-direction: row;
-    margin-bottom: 2.7%;
 }
 
 .kasa-logo {
@@ -21,13 +20,11 @@
 
 .btn-accueil {
     color: #FF6060;
-    text-decoration-line: underline;
     font-size: 24px;
     font-weight: 500;
     font-family: 'Montserrat';
     width: 136px;
     height: 34px;
-    text-decoration: none;
     display: flex;
     flex-direction: row-reverse;
     margin-right: 57px;

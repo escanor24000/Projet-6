@@ -1,3 +1,7 @@
+.section_a_propos{
+    margin-top: 44px;
+}
+
 .barre-titre {
     font-family: 'Montserrat';
     color: #FFFFFF;
@@ -31,7 +35,7 @@
     height: 223px;
     object-fit: cover;
     border-radius: 25px;
-    mix-blend-mode: darken;
+    filter: brightness(0.8);
 }
 
 .propos_dropdown {

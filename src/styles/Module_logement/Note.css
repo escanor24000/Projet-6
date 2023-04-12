@@ -12,6 +12,14 @@
 }
 
 .etoile {
-    width: 24.75px;
+   /* width: 24.75px;
     height: 24px;
+    background: green;*/
+    position: absolute;
+left: 85.42%;
+right: 12.86%;
+top: 64.26%;
+bottom: 33.4%;
+
+background: #FF6060;
 }

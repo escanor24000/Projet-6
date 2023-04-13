@@ -9,17 +9,14 @@
 .containe-etoile {
     width: 36px;
     height: 36px;
+    align-items: center;
+    display: flex;
+    margin-left: 2px;
+    padding-left: 6px;
 }
 
-.etoile {
-   /* width: 24.75px;
+path,
+svg {
     height: 24px;
-    background: green;*/
-    position: absolute;
-left: 85.42%;
-right: 12.86%;
-top: 64.26%;
-bottom: 33.4%;
-
-background: #FF6060;
+    width: 24.75px;
 }

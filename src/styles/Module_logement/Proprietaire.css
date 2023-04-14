@@ -20,3 +20,23 @@
     width: 64px;
     height: 64px;
 }
+
+@media screen and (max-width: 375px) {
+    .Proprietaire_conteneur{
+        width: 135.5px;
+        height: 33px;
+        justify-content: end;
+        margin-top: 16px;
+    }
+    .Proprietaire-nom{
+        width: 62px;
+        height: 33px;
+        line-height: 17.11px;
+        font-size: 12px;
+        justify-content: end;
+    }
+    .Proprietaire-photo{
+        width: 32px;
+        height: 32px;
+    }
+}

@@ -31,7 +31,7 @@ function Logement() {
                     <Localisation localise={loge} />
                     <Tags motcle={loge} />
                 </div>
-                <div>
+                <div className='conteneur-proprietaire-note'>
                 <Proprietaire host={loge} />
                 <Note note={loge}/>
                 </div>

@@ -20,3 +20,22 @@ svg {
     height: 24px;
     width: 24.75px;
 }
+
+@media screen and (max-width: 375px) {
+    .note_containe {
+        width: 98px;
+        height: 18px;
+        margin-top: 24px;
+    }
+
+    .containe-etoile {
+        width: 18px;
+        height: 18px;
+    }
+
+    path,
+    svg {
+        width: 13.41px;
+        height: 13px;
+    }
+}

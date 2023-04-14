@@ -38,3 +38,30 @@
     line-height: 142.6%;
     margin-bottom: 24.92px;
 }
+
+@media screen and (max-width: 375px) {
+    .kasa-containere-slide{
+        margin-top: 27px;
+        margin-bottom: 15px;
+    }
+    .slide-box-photo>img {
+        width: 335px;
+        height: 255px;
+    }
+
+    .leftArrow {
+        width: 11.67px;
+        height: 19.8px;
+        margin-top: 118.1px;
+        margin-left: 5.84px;
+    }
+    .rightArrow{
+        width: 11.67px;
+        height: 19.8px;
+        margin-top: 118.1px;
+        margin-left: 317.49px;
+    }
+    .conteur-slide{
+        display: none;
+    }
+}

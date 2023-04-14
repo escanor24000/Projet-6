@@ -20,3 +20,15 @@
     margin: 0;
     display: flex;
 }
+@media screen and (max-width: 375px) {
+    .tags_conteneur-text{
+        width: 84px;
+        height: 18px;
+        border-radius: 5px;
+    }
+    .tags-texte{
+        height: 14px;
+        font-size: 10px;
+        line-height: 124.6%;
+    }
+}

@@ -22,3 +22,18 @@
     font-weight: 500;
     font-size: 24px;
 }
+
+@media screen and (max-width: 375px) {
+    .footer-logo {
+        width: 122px;
+        height: 39.44px;
+    }
+
+    .footer-texte {
+        font-size: 12px;
+        line-height: 17.11px;
+        height: 46px;
+        align-items: end;
+        margin: 0%;
+    }
+}

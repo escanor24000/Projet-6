@@ -8,7 +8,7 @@ function ShoppingList() {
     console.log(data)
     return (
         <div className='kasa-shoppinglist'>
-            <div>
+            
                 <img src={photo} alt='vue de de bord de mer' className='kasa-photo' />
                 <div className='kasa-box-text-photo'>
                     <p className='kasa-text-photo'>Chez vous, partout et ailleurs</p>
@@ -17,7 +17,7 @@ function ShoppingList() {
 
                     {data.map((log, id) => {
                         return (
-                            <div className={((id > 0 && (id + 1) % 3 == 0) ? 'container-fin' : 'other')}>
+                            <div className={((id > 0 && (id + 1) % 3 == 0) ? 'kasa-gallery-container-3' : 'kasa-gallery-container-1-2')}>
                                 <Link to={`/Logement/${log.id}`} className='kasa-gallery-logement' key={id}>
                                     <img src={log.cover} alt={log.tag} className='kasa-gallery-image-logement' />
                                     <div className='kasa-gallery-box-titre-logement'>
@@ -29,7 +29,7 @@ function ShoppingList() {
                     })}
 
                 </div>
-            </div>
+            
         </div>
     )
 }

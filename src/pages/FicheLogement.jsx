@@ -4,11 +4,11 @@ import Footer from "../components/Footer.js"
 
 function FicheLogement() {
     return (
-        <div>
+        <>
             <Banner/>
             <Logement/>
             <Footer/>
-        </div>
+        </>
     )
 }
 

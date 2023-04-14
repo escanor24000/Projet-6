@@ -1,7 +1,25 @@
-.loge_conteneur{
+.loge_conteneur {
     display: flex;
     justify-content: space-between;
 }
-.loge_descr-equip{
+
+.loge_descr-equip {
     display: flex;
+}
+
+@media screen and (max-width: 375px) {
+    .loge_conteneur {
+        flex-direction: column;
+    }
+
+    .loge_descr-equip {
+        flex-direction: column;
+    }
+
+    .conteneur-proprietaire-note {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: inherit;
+        margin-bottom: 16px;
+    }
 }

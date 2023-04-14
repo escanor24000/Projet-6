@@ -13,3 +13,20 @@ p {
     margin-top: 8px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 375px) {
+    .locali-titre{
+        width: 335px;
+        height: 46px;
+        font-size: 18px;
+    }
+    .locali-adresse{
+        width: 323px;
+        height: 22px;
+        font-size: 14px;
+        line-height: 142.6%;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}

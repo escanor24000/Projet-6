@@ -1,21 +1,21 @@
 .kasa-banner {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .kasa-logo {
-    width: 210.32px;
+    width: 16.13%;
     height: 68px;
     object-fit: contain;
 }
 
 .banner-nav {
     display: flex;
-    align-items: center;
-    width: 309px;
-    height: 34px;
-    margin-left: 720.68px;
-    margin-top: 17px;
+    width: 25%;
+    height: 14%;
+    justify-content: space-between;
 }
 
 .btn-accueil {
@@ -23,12 +23,15 @@
     font-size: 24px;
     font-weight: 500;
     font-family: 'Montserrat';
-    width: 136px;
-    height: 34px;
+    width: 44%;
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 57px;
     line-height: 142.6%;
+    text-decoration-line: none;
+}
+
+.active .btn-accueil{
+ text-decoration-line: underline;
 }
 
 .btn-propos {
@@ -37,10 +40,13 @@
     font-weight: 500;
     font-size: 24px;
     text-decoration: none;
-    width: 116px;
-    height: 34px;
+    /*width: 37.4%;*/
     line-height: 142.6%;
 }
+
+.active1 .btn-propos{
+    text-decoration-line: underline;
+   }
 
 @media screen and (max-width: 375px) {
     .kasa-logo{

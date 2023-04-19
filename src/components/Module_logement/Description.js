@@ -17,9 +17,9 @@ const Description = ({ descrip }) => {
                         <img className='vectorHaut' src={vectorHaut}/>
                     </div>
                     <div className="description_conteneur-texte">
-                        <div className="description_sous-conteneur-texte">
+                        {/*<div className="description_sous-conteneur-texte">*/}
                             <p className="description-texte">{data.description}</p>
-                        </div>
+                        {/*</div>*/}
                     </div>
                 </div>
             ))}

@@ -1,4 +1,4 @@
-import Banner from "../components/Banner.js";
+import Banner from "../components/Banner";
 import Erreur from "../components/erreur.js";
 
 function Pages404() {

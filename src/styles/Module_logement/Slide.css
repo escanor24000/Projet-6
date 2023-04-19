@@ -1,42 +1,46 @@
 .kasa-containere-slide {
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 2.42%;
+    margin-top: 1.62%;
+    height: auto;
 }
 
 .slide-box-photo>img {
     object-fit: cover;
     height: 415px;
-    width: 1240px;
+    width: 100%;
     border-radius: 25px;
 }
 
 .leftArrow {
     position: absolute;
-    width: 46.68px;
-    height: 79.2px;
-    margin-top: 156.7px;
-    margin-left: 23.36px;
+    width: 2.45%;
+    height: 8.3%;
+    margin-top: 8.23%;
+    margin-left: 1.22%;
+    object-fit: cover;
 }
 
 .rightArrow {
     position: absolute;
-    margin-left: 1169.96px;
-    margin-top: 157px;
-    width: 46.68px;
-    height: 79.2px;
+    margin-left: 61.48%;
+    margin-top: 8.26%;
+    width: 2.45%;
+    height: 8.3%;
+    object-fit: cover;
 }
 
 .conteur-slide {
     position: absolute;
+    width: 1.27%;
     left: 48.95%;
     right: 49.11%;
-    bottom: 411px;
+    bottom: 43%;
     color: #FFF;
     font-weight: 500;
     margin: 0;
     font-size: 18px;
     line-height: 142.6%;
-    margin-bottom: 24.92px;
+    margin-bottom: 1.31%;
 }
 
 @media screen and (max-width: 375px) {

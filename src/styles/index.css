@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -5,9 +9,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #FFFFFF;
-  margin-left: 331px;
-  margin-right: 331px;
-  margin-top: 40px;
+  margin-left: 17.4%;
+  margin-right: 17.4%;
+  margin-top: 2.11%;
+  height: 100%;
+}
+
+#root{
+  height: 100%;
 }
 
 code {

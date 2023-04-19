@@ -3,24 +3,33 @@ p {
     font-family: 'Montserrat';
 }
 
+.locali_box {
+    height: 63.64%;
+    /*margin-bottom: 5.99%;*/
+}
+
 .locali-titre {
     font-size: 36px;
+    height: 66.24%;
     margin: 0px;
+    max-width: fit-content;
 }
 
 .locali-adresse {
     font-size: 18px;
-    margin-top: 8px;
-    margin-bottom: 20px;
+    margin: 0;
+    height: 33.77%;
+    max-width: fit-content;
 }
 
 @media screen and (max-width: 375px) {
-    .locali-titre{
+    .locali-titre {
         width: 335px;
         height: 46px;
         font-size: 18px;
     }
-    .locali-adresse{
+
+    .locali-adresse {
         width: 323px;
         height: 22px;
         font-size: 14px;

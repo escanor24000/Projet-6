@@ -3,8 +3,16 @@
     justify-content: space-between;
 }
 
+.loge_conteneur-local-tag{
+    display: flex;
+    flex-direction: column;
+}
+
 .loge_descr-equip {
     display: flex;
+    justify-content: space-between;
+    height: 31.56%;
+    margin-top: 1%;
 }
 
 @media screen and (max-width: 375px) {

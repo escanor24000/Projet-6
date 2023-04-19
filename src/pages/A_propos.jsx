@@ -1,5 +1,4 @@
-import Banner from "../components/Banner.js";
-import "../styles/Module_banner/Banner_a_propos.css"
+import Banner from "../components/Banner";
 import CorpPropos from "../components/CorpPropos"
 import Footer from "../components/Footer.js"
 

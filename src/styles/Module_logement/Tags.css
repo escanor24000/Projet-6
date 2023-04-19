@@ -1,16 +1,7 @@
 .tags_conteneur {
     display: flex;
-}
-
-.tags_conteneur-text {
-    width: 115px;
-    height: 25px;
-    background-color: #FF6060;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
+    width: 100%;
+    margin-top: 2.14%;
 }
 
 .tags-texte {
@@ -19,14 +10,23 @@
     color: #FFFFFF;
     margin: 0;
     display: flex;
+    margin-right: 2%;
+    background-color: #FF6060;
+    border-radius: 10px;
+    padding-top: 0.63%;
+    padding-bottom: 0.42%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
+
 @media screen and (max-width: 375px) {
-    .tags_conteneur-text{
+    .tags_conteneur-text {
         width: 84px;
         height: 18px;
         border-radius: 5px;
     }
-    .tags-texte{
+
+    .tags-texte {
         height: 14px;
         font-size: 10px;
         line-height: 124.6%;

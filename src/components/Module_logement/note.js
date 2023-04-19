@@ -14,9 +14,9 @@ const Note = ({ note }) => {
     return (
         <div className='note_containe'>
             {createArray(5).map((nb,i) => (
-                <div className='containe-etoile'>
+                /*<div className='containe-etoile'>*/
                 <Star key={i} selected={nbCouleur > i} />
-                </div>
+                /*</div>*/
             ))}
         </div>
     )

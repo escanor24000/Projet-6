@@ -13,14 +13,19 @@
     object-fit: contain;
     height: 23%;
     display: flex;
+    margin-top: 5.4%;
 }
 
 .footer-texte {
     color: #FFFFFF;
-    height: 11%;
+    width: 41.4%;
+    height: 22.1%;
+    align-items: end;
+    justify-content: center;
     display: flex;
     font-weight: 500;
     font-size: 24px;
+    margin-bottom: 2.4%;
 }
 
 @media screen and (max-width: 375px) {

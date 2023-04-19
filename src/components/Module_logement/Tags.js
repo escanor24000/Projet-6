@@ -7,9 +7,7 @@ const tags = ({ motcle }) => {
                 return (
                     <div key={index} className="tags_conteneur">
                         {data.tags.map(tags =>
-                            <div className='tags_conteneur-text'>
-                                <p className='tags-texte'>{tags}</p>
-                            </div>
+                            <p className='tags-texte'>{tags}</p>
                         )}
                     </div>
                 )

@@ -1,4 +1,4 @@
-import Banner from "../components/Banner.js";
+import Banner from "../components/Banner";
 import Logement from "../components/Logement.js";
 import Footer from "../components/Footer.js"
 

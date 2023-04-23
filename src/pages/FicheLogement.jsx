@@ -5,9 +5,9 @@ import Footer from "../components/Footer.js"
 function FicheLogement() {
     return (
         <>
-            <Banner/>
-            <Logement/>
-            <Footer/>
+            <Banner />
+            <Logement />
+            <Footer />
         </>
     )
 }

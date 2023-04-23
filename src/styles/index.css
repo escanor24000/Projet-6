@@ -24,11 +24,11 @@ code {
     monospace;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 720px) {
 
   body {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin-left: 2.78%;
+    margin-right: 2.78%;
+    margin-top: 2.78%;
   }
 }

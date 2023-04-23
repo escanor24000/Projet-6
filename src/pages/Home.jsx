@@ -4,10 +4,10 @@ import Footer from "../components/Footer.js";
 
 function App() {
     return (
-       <>
+        <>
             <Banner />
             <ShoppingList />
-            <Footer/>
+            <Footer />
         </>
     )
 }

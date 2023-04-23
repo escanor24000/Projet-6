@@ -21,7 +21,6 @@ function Logement() {
         }
 
     });
-    console.log(loge)
 
     return (
         <>

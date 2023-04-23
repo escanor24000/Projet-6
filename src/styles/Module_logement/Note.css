@@ -7,15 +7,6 @@
     margin-top: 8.31%;
 }
 
-.containe-etoile {
-    width: 18.37%;
-    height: 100%;
-    align-items: center;
-    display: flex;
-    margin-left: 2px;
-    padding-left: 6px;
-}
-
 path,
 svg {
     width: 12.63%;
@@ -23,16 +14,17 @@ svg {
     margin-left: 7.78%;
 }
 
+@media screen and (max-width: 1262px) {
+    .note_containe{
+        width: 24.83%;
+        margin-top: 0%;
+    }
+}
 @media screen and (max-width: 375px) {
     .note_containe {
-        width: 98px;
+        width: 31%;
         height: 18px;
         margin-top: 24px;
-    }
-
-    .containe-etoile {
-        width: 18px;
-        height: 18px;
     }
 
     path,

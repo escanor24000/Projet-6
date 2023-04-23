@@ -20,21 +20,41 @@
     width: 28.67%;
 }
 
+@media screen and (max-width: 1262px) {
+    .Proprietaire-nom {
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 1262px) {
+    .Proprietaire-nom {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Proprietaire-nom {
+        font-size: 2.9vw;
+    }
+}
+
 @media screen and (max-width: 375px) {
-    .Proprietaire_conteneur{
+    .Proprietaire_conteneur {
         width: 135.5px;
         height: 33px;
         justify-content: end;
         margin-top: 16px;
     }
-    .Proprietaire-nom{
+
+    .Proprietaire-nom {
         width: 62px;
         height: 33px;
         line-height: 17.11px;
         font-size: 12px;
         justify-content: end;
     }
-    .Proprietaire-photo{
+
+    .Proprietaire-photo {
         width: 32px;
         height: 32px;
     }

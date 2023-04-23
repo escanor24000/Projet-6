@@ -163,3 +163,45 @@
     line-height: 142.6%;
     margin: 0;
 }
+
+@media screen and (max-width: 1921px) {
+    .dropdown-barre{
+        align-items: baseline;
+    }
+    .barre-titre{
+       font-size: 1.25vw; 
+    }
+    .explica-texte{
+        font-size: 1.25vw;
+    }
+    .explica-vectorHaut{
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .barre-titre{
+        font-size: 3.99vw;
+    }
+    .explica-texte{
+        font-size: 3.69vw;
+    }
+    .section_a_propos{
+        margin-bottom: 9%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .propos_dropdown{
+        width: auto;
+    }
+    .barre-titre{
+        font-size: 3.47vw;
+    }
+    .explica-texte{
+
+    }
+    .explica-vectorHaut{
+        width: 3,9%;
+    }
+}

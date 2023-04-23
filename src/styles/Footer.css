@@ -28,17 +28,13 @@
     margin-bottom: 2.4%;
 }
 
-@media screen and (max-width: 375px) {
-    .footer-logo {
-        width: 122px;
-        height: 39.44px;
+@media screen and (max-width: 1921px) {
+    .footer-texte{
+        font-size: 1.25vw;
     }
-
-    .footer-texte {
-        font-size: 12px;
-        line-height: 17.11px;
-        height: 46px;
-        align-items: end;
-        margin: 0%;
+}
+@media screen and (max-width: 720px) {
+    .footer-texte{
+        font-size: 2.3vw;
     }
 }

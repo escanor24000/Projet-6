@@ -20,7 +20,6 @@ p {
 }
 
 .erreur-msg {
-    width: 70.3%;
     font-size: 36px;
     font-weight: 500;
     line-height: 51.34px;
@@ -41,4 +40,45 @@ p {
     color: #FF6060;
     margin-top: 14.7%;
     margin-bottom: 12.88%;
+}
+
+@media screen and (max-width: 1921px) {
+    .erreur-400{
+        font-size: 14.993vw;
+        width: auto;
+    }
+    .erreur-msg{
+        font-size: 1.8741vw;
+    }
+    .erreur-btn{
+        width: auto;
+        font-size: 0.9371vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .erreur-msg{
+        font-size: 2.5vw;
+    }
+    .erreur-400{
+        font-size: 17.993vw;
+    }
+}
+@media screen and (max-width: 375px) {
+    .erreur-400{
+        font-size:   24.801vw;
+    }
+    .erreur-msg{
+        font-size: 4.8vw;
+        width: 73.412%;
+        line-height: 142.6%;
+        display: flex;
+        text-align: center;
+    }
+    .erreur-btn{
+        font-size: 3.74vw;
+    }
+    .erreur_conteneur{
+        margin-top: 25%;
+    }
 }

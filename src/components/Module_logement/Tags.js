@@ -6,8 +6,8 @@ const tags = ({ motcle }) => {
             {motcle.map((data, index) => {
                 return (
                     <div key={index} className="tags_conteneur">
-                        {data.tags.map(tags =>
-                            <p className='tags-texte'>{tags}</p>
+                        {data.tags.map((tags,index) =>
+                            <p key={index} className='tags-texte'>{tags}</p>
                         )}
                     </div>
                 )

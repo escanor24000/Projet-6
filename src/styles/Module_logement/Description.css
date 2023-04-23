@@ -67,10 +67,24 @@
     line-height: 142.6%;
 }
 
+@media screen and (max-width: 1262px) {
+    .description_conteneur{
+        height: fit-content;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .description_conteneur-titre{
+        height: fit-content;
+        top: 5%;
+    }
+    .description_conteneur-texte{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 375px) {
-    .description_conteneur-titre {
-        width: 335px;
-        height: 29.93px;
+    .description_conteneur{
+        width: 100%;
     }
 
     .description-titre {
@@ -92,8 +106,7 @@
         margin-top: 11.3px;
     }
 
-    .description_conteneur-texte {
-        width: 335px;
-        height: 143.32px;
+    .description-texte{
+        font-size: 3.2vw;
     }
 }

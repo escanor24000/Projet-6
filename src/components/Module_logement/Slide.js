@@ -30,7 +30,7 @@ const Slider = ({ slides }) => {
                 <p className='conteur-slide'>{current+1}/{length}</p>
                 {slides.map((picture, index) => {
                     return (<div key={index} className="slide-box-photo">
-                        {index === current && <img src={picture} alt='yolo' />}
+                        {index === current && <img src={picture} alt='une photo pièce appartement' />}
                     </div>)
                 })}
             </div>

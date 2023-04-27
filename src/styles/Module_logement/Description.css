@@ -1,112 +1,11 @@
-.description_conteneur{
-    width: 46.91%;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-.description_conteneur-titre {
-    width: 100%;
-    height: 17.26%;
-    border-radius: 10px;
-    background-color: #FF6060;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 4%;
-}
-
-.description_conteneur-titre:hover {
-    cursor: pointer;
-}
-
-.description-titre {
-    font-size: 18px;
-    font-weight: 500;
-    color: #FFF;
-    align-items: center;
-    display: flex;
-    margin: 2.24% 0% 2.24% 3.44%;
-}
-
-.vectorHaut {
-    width: 4.13%;
-    height: 26.4%;
-    object-fit: cover;
-    display: flex;
-    margin: 3.1% 2.24% 3.49% 0%;
-}
-
-.active .vectorHaut {
-    rotate: 180deg;
-    transition: all .2s;
-}
-
-.active .description_conteneur-texte {
-    height: 88.6%;
-    border-radius: 10px;
-    background-color: #F7F7F7;
-    visibility: visible;
-    overflow: visible;
-    opacity: 1;
-    display: flex;
-}
-
-.description_conteneur-texte {
-    overflow: hidden;
-    visibility: hidden;
-    opacity: 0;
-    transition: linear;
-}
-
-.description-texte {
+.explica-texte {
     font-size: 18px;
     font-weight: 400;
     align-items: baseline;
     display: flex;
-    margin: 6.88% 2.07% 9.11% 3.44%;
     line-height: 142.6%;
-}
-
-@media screen and (max-width: 1262px) {
-    .description_conteneur{
-        height: fit-content;
-        margin-bottom: 2%;
-        width: 100%;
-    }
-    .description_conteneur-titre{
-        height: fit-content;
-        top: 5%;
-    }
-    .description_conteneur-texte{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .description_conteneur{
-        width: 100%;
-    }
-
-    .description-titre {
-        width: 77px;
-        height: 19px;
-        font-size: 13px;
-        line-height: 18.54px;
-        margin-left: 11.51px;
-        margin-top: 5.48px;
-        margin-bottom: 5.45px;
-    }
-
-    .vectorHaut {
-        object-fit: contain;
-        width: 16px;
-        height: 9.14px;
-        margin-right: 7px;
-        margin-bottom: 9.49px;
-        margin-top: 11.3px;
-    }
-
-    .description-texte{
-        font-size: 3.2vw;
-    }
+    margin-left: 3.437%;
+    margin-top: 6.873%;
+    margin-right: 2.062%;
+    margin-bottom: 9.107%;
 }

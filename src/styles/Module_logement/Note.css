@@ -14,10 +14,11 @@ svg {
     margin-left: 7.78%;
 }
 
-@media screen and (max-width: 1262px) {
+@media screen and (max-width: 992px) {
     .note_containe{
-        width: 24.83%;
-        margin-top: 0%;
+        width: 27.83%;
+        margin-top: 1.31%;
+        
     }
 }
 @media screen and (max-width: 375px) {

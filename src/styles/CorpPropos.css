@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.a_propos-containe-collapse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.63%;
+    width: 83%;
+}
+
 .kasa_photo-propos {
     width: 100%;
     height: 223px;
@@ -13,195 +21,31 @@
     filter: brightness(0.8);
 }
 
-.propos_dropdown {
-    width: 82.5%;
-    display: flex;
-    margin-top: 2.4%;
-    flex-direction: column;
-}
-
-.dropdown-barre {
-    background: #FF6060;
-    border-radius: 5px;
-    position: relative;
-    top: 9px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.barre-titre {
-    font-family: 'Montserrat';
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    width: 9.5%;
-    margin-left: 1.8%;
-    margin-top: 0.55%;
-    margin-bottom: 0.7%;
-}
-
-.explica-vectorHaut {
-    width: 2.35%;
-    object-fit: none;
-    margin-top: 1.6%;
-    margin-right: 3.2%;
-    margin-bottom: 1.7%;
-}
-
-.active .explica-vectorHaut {
-    rotate: 180deg;
-    transition: all .2s;
-}
-
-.dropdown-barre:hover {
-    cursor: pointer;
-}
-
-.active .dropdown-explica-fiabilite {
-    background: #F7F7F7;
-    border-radius: 5px;
-    height: 100%;
-    visibility: visible;
-    overflow: hidden;
-    opacity: 1;
-}
-
-.dropdown-explica-fiabilite {
-    visibility: hidden;
-    height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: linear;
-}
-
-.explica-conteneur-texte-fiabilite {
-    width: 95.6%;
-    margin-left: 1.76%;
-    margin-top: 3.52%;
-    margin-bottom: 2.64%;
-    margin-right: 1%;
-}
-
-.active .dropdown-explica-respect {
-    background: #F7F7F7;
-    border-radius: 5px;
-    height: 100%;
-    visibility: visible;
-    overflow: hidden;
-    opacity: 1;
-}
-
-.dropdown-explica-respect {
-    visibility: hidden;
-    height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: linear;
-}
-
-.explica-conteneur-texte-respect {
-    width: 95.61%;
-    margin-left: 1.76%;
-    margin-bottom: 1.86%;
-    margin-top: 3.6%;
-    margin-right: 2.4%;
-}
-
-.active .dropdown-explica-service {
-    background: #F7F7F7;
-    border-radius: 5px;
-    height: 100%;
-    visibility: visible;
-    overflow: hidden;
-    opacity: 1;
-}
-
-.dropdown-explica-service {
-    visibility: hidden;
-    height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: linear;
-}
-
-.explica-conteneur-texte-service {
-    width: 95.55%;
-    margin-top: 3.52%;
-    margin-left: 1.76%;
-    margin-bottom: 1.86%;
-}
-
-.active .dropdown-explica-securite {
-    background: #F7F7F7;
-    border-radius: 5px;
-    height: 100%;
-    visibility: visible;
-    overflow: hidden;
-    opacity: 1;
-}
-
-.dropdown-explica-securite {
-    visibility: hidden;
-    height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: linear;
-}
-
-.explica-conteneur-texte-securite {
-    margin-left: 1.76%;
-    margin-top: 3.52%;
-    margin-right: 2.64%;
-    margin-bottom: 1%;
-}
-
-.explica-texte {
+.texte-a-propos {
     color: #FF6060;
     font-size: 24px;
     font-weight: 400;
     line-height: 142.6%;
     margin: 0;
+    margin-left: 1.451%;
+margin-top: 2.902%;
+margin-bottom: 1.5314%;
 }
 
-@media screen and (max-width: 1921px) {
-    .dropdown-barre{
-        align-items: baseline;
+@media screen and (max-width: 992px) {
+    .a_propos-containe-collapse{
+        width: 100%;
     }
-    .barre-titre{
-       font-size: 1.25vw; 
-    }
-    .explica-texte{
-        font-size: 1.25vw;
-    }
-    .explica-vectorHaut{
-        object-fit: contain;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .barre-titre{
-        font-size: 3.99vw;
-    }
-    .explica-texte{
-        font-size: 3.69vw;
-    }
-    .section_a_propos{
-        margin-bottom: 9%;
+    .texte-a-propos {
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .propos_dropdown{
-        width: auto;
-    }
-    .barre-titre{
-        font-size: 3.47vw;
-    }
-    .explica-texte{
-
-    }
-    .explica-vectorHaut{
-        width: 3,9%;
+    .texte-a-propos{
+        font-size: 12px;
+        margin-left: 3.25%;
+        margin-top: 6.72%;
+        margin-bottom: 14.91%;
     }
 }

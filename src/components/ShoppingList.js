@@ -2,13 +2,14 @@ import '../styles/ShoppingList.css'
 import photo from '../assets/img_home.png'
 import Api from './Api'
 import { Link } from 'react-router-dom'
+import ImageBanner from './ImageBanner'
 
 function ShoppingList() {
     const data = Api();
     return (
         <>
             <div className='contener-img-texte'>
-                <img src={photo} alt='vue de de bord de mer' className='kasa-photo' />
+                <ImageBanner image={photo} expli='vue de de bord de mer'/>
                 <p className='kasa-text-photo'>Chez vous, partout et ailleurs</p>
             </div>
             <section className='kasa-gallery'>

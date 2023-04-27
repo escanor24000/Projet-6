@@ -4,13 +4,6 @@
     flex-direction: column;
 }
 
-.kasa-photo {
-    filter: brightness(0.8);
-    border-radius: 25px;
-    width: 100%;
-    object-fit: cover;
-}
-
 .kasa-text-photo {
     font-family: 'Montserrat';
     font-style: normal;
@@ -93,23 +86,7 @@
     }
 }
 
-@media screen and (max-width: 1350px) {
-    .kasa-gallery-container-1-2 {
-        width: 42.6%;
-        margin-right: 7.038%;
-    }
-
-    .kasa-gallery-container-3 {
-        width: 42.6%;
-        margin-right: 60px;
-    }
-
-    .kasa-gallery-titre-logement {
-        font-size: 1.19vw;
-    }
-}
-
-@media screen and (max-width: 1294px) {
+@media screen and (max-width: 992px) {
     .kasa-gallery {
         flex-direction: column;
         flex-wrap: nowrap;

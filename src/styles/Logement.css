@@ -1,21 +1,32 @@
 .loge_conteneur {
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .loge_conteneur-local-tag {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .loge_descr-equip {
     display: flex;
     justify-content: space-between;
-    height: 31.56%;
     margin-top: 1%;
 }
 
-@media screen and (max-width: 1262px) {
+.loge-descr{
+    display: flex;
+    width: 46.907%;
+}
+
+.loge-equip{
+    width: 46.907%;
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
     .loge_descr-equip {
         flex-direction: column;
         height: fit-content;
@@ -28,10 +39,19 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
 
     .loge_conteneur {
         flex-direction: column;
+
+    }
+    .loge-descr{
+        width: 100%;
+    }
+    
+    .loge-equip{
+        width: 100%;
     }
 }
 

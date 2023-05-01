@@ -17,16 +17,15 @@ const Slider = ({ slides }) => {
         setCurrent(current === 0 ? length - 1 : current - 1);
     };
 
-    if(length == 1){
-        btnGauche.style.visibility = "hidden";
-        btnDroite.style.visibility = "hidden";
-    }
-
+    
     return (
         <>
             <div className='kasa-containere-slide'>
-                <img src={vector_G} className="leftArrow" onClick={prevSlide} />
-                <img src={vector_D} className="rightArrow" onClick={nextSlide} />
+               {slides.length>1
+               ? <img src={vector_G} className="leftArrow" onClick={prevSlide} />: null}
+                 {slides.length>1
+               ? <img src={vector_D} className="rightArrow" onClick={nextSlide} />: null}
+                
                 <p className='conteur-slide'>{current+1}/{length}</p>
                 {slides.map((picture, index) => {
                     return (<div key={index} className="slide-box-photo">

@@ -14,7 +14,7 @@ function Collapse(props) {
         <article className={`dropdown ${active && "active"}`}>
                 <div className='dropdown-barre' onClick={toggleAccordion}>
                     <p className="barre-titre">{props.titre}</p>
-                    <img className='vectorHaut' src={props.vector} />
+                    <img className='vectorHaut' src={props.vector} alt="vector_haut"/>
                 </div>
                 <div className='dropdown-explica'>
                         {props.children}

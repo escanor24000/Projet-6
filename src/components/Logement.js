@@ -3,13 +3,13 @@ import ApiImages from './ApiImages'
 import Slider from './Module_logement/Slide'
 import Localisation from './Module_logement/Localisation'
 import Proprietaire from './Module_logement/Proprietaire'
-import Note from './Module_logement/note.js'
+import Note from './Module_logement/Note.js'
 import Tags from './Module_logement/Tags'
 import Description from './Module_logement/Description'
 import Equipement from './Module_logement/Equipement'
 import Api from './Api';
 import '../styles/Logement.css'
-import Erreur from "../components/erreur.js";
+import Erreur from "../components/Erreur.js";
 
 function Logement() {
     const idUrl = useParams();
@@ -23,7 +23,7 @@ function Logement() {
         }
 
     });
-    if (loge.length == 0) {
+    if (loge.length === 0) {
         return (<Erreur />)
     } else {
         console.log(loge)

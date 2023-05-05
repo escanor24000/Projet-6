@@ -20,7 +20,7 @@
     color: #FFFFFF;
     width: 41.4%;
     height: 22.1%;
-    align-items: end;
+    align-items: flex-end;;
     justify-content: center;
     display: flex;
     font-weight: 500;

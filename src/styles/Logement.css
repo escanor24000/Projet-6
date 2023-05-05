@@ -1,7 +1,7 @@
 .loge_conteneur {
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .loge_conteneur-local-tag {

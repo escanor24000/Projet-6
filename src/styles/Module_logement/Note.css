@@ -1,6 +1,6 @@
 .note_containe {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 87.83%;
     height: 28.2%;
     margin: 0%;

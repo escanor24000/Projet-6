@@ -15,7 +15,6 @@ function Logement() {
     const idUrl = useParams();
     const images = ApiImages(idUrl.id);
     const data = Api();
-    console.log(data)
     const loge = []
     data.forEach(function (res) {
         if (idUrl.id === res.id) {
@@ -26,7 +25,6 @@ function Logement() {
     if (loge.length === 0) {
         return (<Erreur />)
     } else {
-        console.log(loge)
         return (
             <>
                 <Slider slides={images} />

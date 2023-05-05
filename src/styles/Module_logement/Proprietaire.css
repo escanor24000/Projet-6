@@ -1,6 +1,6 @@
 .Proprietaire_conteneur {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;;
 }
 
 .Proprietaire-nom {

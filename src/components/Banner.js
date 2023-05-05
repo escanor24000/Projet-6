@@ -18,8 +18,8 @@ function Banner() {
                     <div className={splitLocation[1] === "" ? "active" : ""}>
                     <Link to="/" className='btn-accueil'>{accueil}</Link>
                     </div>
-                    <div className={splitLocation[1] === "A_popros" ? "active" : ""}>
-                    <Link to="/A_popros" className='btn-propos'>{propos}</Link>
+                    <div className={splitLocation[1] === "Apopros" ? "active" : ""}>
+                    <Link to="/Apopros" className='btn-propos'>{propos}</Link>
                     </div>
                 </nav>
             </header>

@@ -8,14 +8,39 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "img_home.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "1240x827"
     },
     {
-      "src": "logo512.png",
+      "src": "img_propos.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1240x827"
+    },
+    {
+      "src": "logo_blanc.png",
+      "type": "image/png",
+      "sizes": "122x40"
+    },
+    {
+      "src": "logo-kasa.png",
+      "type": "image/png",
+      "sizes": "211x68"
+    },
+    {
+      "src": "Vector_D.png",
+      "type": "image/png",
+      "sizes": "48x80"
+    },
+    {
+      "src": "Vector_G.png",
+      "type": "image/png",
+      "sizes": "48x80"
+    },
+    {
+      "src": "vector-haut.png",
+      "type": "image/png",
+      "sizes": "24x14"
     }
   ],
   "start_url": ".",
